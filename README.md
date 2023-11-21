@@ -10,8 +10,8 @@ Dalam arsitektur micro frontend, setiap bagian dari antarmuka pengguna dipecah m
 - Webpack's 5 (Federation)
 
 ### Case: 
-Project Company -> Host
-Project Shop -> Remote
+- Project Company (Host)
+- Project Shop (Remote)
 
 Project Company memiliki component Header. Component tersebut di expose oleh project company agar dapat digunakan / diremote oleh project lain. Dalam case ini project shop melakukan remote terhadap project company dan dapat menggunakan component yang berada pada Company kedalam Shop.
 
